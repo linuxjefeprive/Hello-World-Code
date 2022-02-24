@@ -8,7 +8,7 @@
 
       copy:
 
-        src: "/var/lib/jenkins/workspace/Maven Project IaC/webapp/target/webapp.war"
+        src: "/var/lib/jenkins/workspace/DevOps WAR File Project/webapp/target/webapp.war"
 
         dest: "/var/lib/tomcat8/webapps/webapp.war"
 
