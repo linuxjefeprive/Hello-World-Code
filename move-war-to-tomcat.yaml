@@ -10,7 +10,7 @@
 
         src: "/var/lib/jenkins/workspace/DevOps WAR File Project/webapp/target/webapp.war"
 
-        dest: "/var/lib/tomcat8/webapps/webapp.war"
+        dest: "/var/lib/tomcat/webapps/webapp.war"
 
         force: yes
         
