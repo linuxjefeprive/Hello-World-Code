@@ -1,0 +1,25 @@
+- name: push to tomcat server
+
+  hosts: ec2
+
+  tasks:
+
+    - name: Push War to Tomcat Server
+
+      copy:
+
+        src: "/var/lib/jenkins/workspace/Maven Project IaC/webapp/target/webapp.war"
+
+        dest: "/var/lib/tomcat8/webapps/webapp.war
+
+        force: yes
+
+
+
+
+
+
+
+
+
+
