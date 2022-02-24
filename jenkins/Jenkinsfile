@@ -26,5 +26,8 @@ pipeline {
                 )
                 echo '> Deployed to Site 1 ...'
             }
-        
+               }
+    }
+}
+}
     
