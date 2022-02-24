@@ -22,7 +22,7 @@ pipeline {
                 ansiblePlaybook (
                     installation: 'Ansible',
                     playbook: '${WORKSPACE}/move-war-to-tomcat.yaml',
-                    inventory: '/etc/ansible/hosts
+                    inventory: '/etc/ansible/hosts'
                 )
                 echo '> Deployed to Site 1 ...'
             }
