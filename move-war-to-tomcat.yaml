@@ -1,8 +1,8 @@
 - name: push to tomcat server
   
-  hosts: ec2
+  hosts: ec2-jenkins
   become: true
-  become_method: sudo
+  
   tasks:
 
     - name: Push War to Tomcat Server
