@@ -1,5 +1,5 @@
 - name: push to tomcat server
-  
+  become: yes
   hosts: ec2-jenkins
   
   tasks:
