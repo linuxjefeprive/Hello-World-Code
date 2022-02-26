@@ -1,3 +1,4 @@
+###### This is the ansible script contained in the Hello World github that is called using jenkins and the jenkins file. Fully automated. This file moves WAR to tomcat server.
 - name: push to tomcat server
   become: yes
   hosts: ec2-jenkins
