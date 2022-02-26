@@ -1,3 +1,5 @@
-# maven-project
+# DevOps WAR File Project
 
-Simple Maven Project
+DevOps WAR File Project
+
+Simple java code to deploy automatically via Jenkins / Ansible
