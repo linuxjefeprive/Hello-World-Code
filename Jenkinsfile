@@ -1,3 +1,4 @@
+// This is where we set the Jenkins options to use when building, in this case we Build, and then deploy via ansible script. 
 pipeline {
     agent any 
     stages {
